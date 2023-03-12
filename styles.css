@@ -35,3 +35,75 @@ summary::-webkit-details-marker {
   position: absolute;
   right: 40%;
 }
+
+#toggle:checked ~ label {
+  color: black;
+}
+#toggle2:checked ~ label {
+  color: black;
+}
+#toggle3:checked ~ label {
+  color: black;
+}
+#toggle4:checked ~ label {
+  color: black;
+}
+#toggle5:checked ~ label {
+  color: black;
+}
+.accordion:hover label {
+  color: black;
+}
+.accordion:hover .plus {
+  display: block;
+  transition: all 0.3s;
+}
+
+#toggle:hover ~ .img1 {
+  display: block;
+  transition: all 0.3s;
+}
+
+#toggle2:hover ~ .img2 {
+  display: block;
+  transition: all 0.3s;
+}
+
+#toggle3:hover ~ .img3 {
+  display: block;
+  transition: all 0.3s;
+}
+
+#toggle4:hover ~ .img4 {
+  display: block;
+  transition: all 0.3s;
+}
+
+#toggle5:hover ~ .img5 {
+  display: block;
+  transition: all 0.3s;
+}
+
+#toggle:hover ~ .plus1 {
+  transform: rotate(45deg);
+  transition: all 0.3s;
+}
+#toggle2:hover ~ .plus2 {
+  transform: rotate(45deg);
+  transition: all 0.3s;
+}
+
+#toggle3:hover ~ .plus3 {
+  transform: rotate(45deg);
+  transition: all 0.3s;
+}
+
+#toggle4:hover ~ .plus4 {
+  transform: rotate(45deg);
+  transition: all 0.3s;
+}
+
+#toggle5:hover ~ .plus5 {
+  transform: rotate(45deg);
+  transition: all 0.3s;
+}
