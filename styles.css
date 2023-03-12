@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Palmer Classic Serif;
+  line-height: 1.2;
+  background-color: #f8fae7;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.accordion {
+  width: 320px;
+  box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.accordion__item {
+  color: rgb(37, 57, 238);
+  text-align: center;
+}
+
+.plus {
+  display: none;
+  content: "+";
+  position: absolute;
+  right: 40%;
+}
