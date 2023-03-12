@@ -1,0 +1,188 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Palmer Classic Serif;
+  line-height: 1.2;
+  background-color: #f8fae7;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.accordion {
+  width: 320px;
+  box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.accordion__item {
+  color: rgb(37, 57, 238);
+  text-align: center;
+}
+
+.plus {
+  display: none;
+  content: "+";
+  position: absolute;
+  right: 40%;
+}
+
+#toggle:checked ~ label {
+  color: black;
+}
+#toggle2:checked ~ label {
+  color: black;
+}
+#toggle3:checked ~ label {
+  color: black;
+}
+#toggle4:checked ~ label {
+  color: black;
+}
+#toggle5:checked ~ label {
+  color: black;
+}
+.accordion:hover label {
+  color: black;
+}
+.accordion:hover .plus {
+  display: block;
+  transition: all 0.3s;
+}
+
+#toggle:hover ~ .img1 {
+  display: block;
+  transition: all 0.3s;
+}
+
+#toggle2:hover ~ .img2 {
+  display: block;
+  transition: all 0.3s;
+}
+
+#toggle3:hover ~ .img3 {
+  display: block;
+  transition: all 0.3s;
+}
+
+#toggle4:hover ~ .img4 {
+  display: block;
+  transition: all 0.3s;
+}
+
+#toggle5:hover ~ .img5 {
+  display: block;
+  transition: all 0.3s;
+}
+
+#toggle:hover ~ .plus1 {
+  transform: rotate(45deg);
+  transition: all 0.3s;
+}
+#toggle2:hover ~ .plus2 {
+  transform: rotate(45deg);
+  transition: all 0.3s;
+}
+
+#toggle3:hover ~ .plus3 {
+  transform: rotate(45deg);
+  transition: all 0.3s;
+}
+
+#toggle4:hover ~ .plus4 {
+  transform: rotate(45deg);
+  transition: all 0.3s;
+}
+
+#toggle5:hover ~ .plus5 {
+  transform: rotate(45deg);
+  transition: all 0.3s;
+}
+
+#toggle:checked ~ .plus1 {
+  transform: rotate(45deg);
+  transition: all 0.3s;
+}
+#toggle2:checked ~ .plus2 {
+  transform: rotate(45deg);
+  transition: all 0.3s;
+}
+
+#toggle3:checked ~ .plus3 {
+  transform: rotate(45deg);
+  transition: all 0.3s;
+}
+
+#toggle4:checked ~ .plus4 {
+  transform: rotate(45deg);
+  transition: all 0.3s;
+}
+
+#toggle5:checked ~ .plus5 {
+  transform: rotate(45deg);
+  transition: all 0.3s;
+}
+
+.img {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 5px;
+}
+
+#toggle {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 40px 10px 20px;
+  transition: 0.3s all;
+  position: relative;
+}
+label {
+  display: block;
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  color: blue;
+  font-weight: bold;
+}
+input[type="checkbox"] {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+#toggle:checked ~ label {
+  color: black;
+}
+
+#toggle:checked ~ .img1 {
+  display: block;
+}
+
+#toggle2:checked ~ .img2 {
+  display: block;
+}
+
+#toggle3:checked ~ .img3 {
+  display: block;
+}
+
+#toggle4:checked ~ .img4 {
+  display: block;
+}
+
+#toggle5:checked ~ .img5 {
+  display: block;
+}
